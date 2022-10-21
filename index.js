@@ -10,7 +10,6 @@ app.use(cors())
 
 app.get('/', function (req, res) {
     res.json(file)
-    
 })
 
 // fetch('dataj.json')
